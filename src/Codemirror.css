@@ -1,0 +1,32 @@
+/* line 1, Codemirror.sass */
+.zCodemirror {
+  display: flex;
+  border-right: 1px solid #cdcdcd !important;
+}
+/* line 5, Codemirror.sass */
+.zCodemirror > .CodeMirror {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: auto !important;
+}
+/* line 10, Codemirror.sass */
+.zCodemirror > .CodeMirror span {
+  word-break: break-all;
+}
+/* line 12, Codemirror.sass */
+.zCodemirror > .CodeMirror > .CodeMirror-scroll {
+  flex-grow: 1;
+}
+/* line 15, Codemirror.sass */
+.zCodemirror > .CodeMirror .cm-matchhighlight {
+  background-color: lightgreen;
+}
+/* line 18, Codemirror.sass */
+.zCodemirror > .CodeMirror .CodeMirror-selection-highlight-scrollbar {
+  background-color: green;
+}
+/* line 20, Codemirror.sass */
+.zCodemirror > .cm-s-solarized {
+  box-shadow: inherit !important;
+}

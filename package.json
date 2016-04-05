@@ -1,0 +1,22 @@
+{
+  "name": "ui5lib",
+  "version": "0.0.1",
+  "description": "custom ui5 controls and wrappers",
+  "main": "library.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/krasnobaev/ui5lib.git"
+  },
+  "author": "Aleksey Krasnobaev <alekseykrasnobaev@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/krasnobaev/ui5lib/issues"
+  },
+  "homepage": "https://github.com/krasnobaev/ui5lib#readme"
+}

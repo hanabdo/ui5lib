@@ -1,0 +1,21 @@
+.zCodemirror
+  display: flex
+  // border: 1px solid #cdcdcd !important
+  border-right: 1px solid #cdcdcd !important
+  > .CodeMirror
+    display: flex
+    flex-direction: column
+    flex-grow: 1
+    height: auto !important
+    span
+      word-break: break-all
+    > .CodeMirror-scroll
+      flex-grow: 1
+      // flex-shrink: 0 // break things
+    .cm-matchhighlight
+      background-color: lightgreen
+    // @todo TBI, stub for highlight matches on scrollbar
+    .CodeMirror-selection-highlight-scrollbar
+      background-color: green
+  > .cm-s-solarized // solarized theme fix
+    box-shadow: inherit !important
